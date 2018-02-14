@@ -1,0 +1,10 @@
+# Routes
+
+GET		/							controllers.Application.index
+
+GET		/products					controllers.Products.list
+GET		/products/:ean				controllers.Products.show(ean: Long)
+
+GET		/assets/*file				controllers.Assets.versioned(path="/public", file)
+
+GET		/barcode/:ean 				controllers.Barcodes.barcode(ean: Long)

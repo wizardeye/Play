@@ -1,0 +1,7 @@
+application.name = 제품 카달로그
+
+ean = EAN
+name = 이름
+description = 설명
+
+products.details = Product: {0}
