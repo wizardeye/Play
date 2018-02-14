@@ -3,5 +3,13 @@ application.name = 제품 카달로그
 ean = EAN
 name = 이름
 description = 설명
-
 products.details = Product: {0}
+products.form = 제품 상세정보
+products.list.navigation = Products
+products.new = (new)
+products.new.command = New
+products.new.submit = Add
+products.new.success = Successfully added product {0}.
+
+validation.errors = 입력 정보에 오류가 있습니다. 수정 후 재입력 하십시오.
+validation.ean.duplicate = 해당 제품에 대한 바코드가 이미 존재합니다.
